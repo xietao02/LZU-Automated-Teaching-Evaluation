@@ -125,7 +125,7 @@ for i in range(1, taskList+1):
         if(rows != 0):
             print("Total number of courses:", rows)
 
-    for j in range(10, rows+1):
+    for j in range(1, rows+1):
         time.sleep(5)
         js = '''document.querySelector("#pjkc > tr:nth-child(''' + \
             str(j) + ''') > td:nth-child(3) > div > a").click()'''
